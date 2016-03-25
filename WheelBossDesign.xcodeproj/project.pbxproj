@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F234CF21C704F3B00240968 /* MyOrderBodyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CF11C704F3B00240968 /* MyOrderBodyScrollView.swift */; };
+		8F234CF41C70529600240968 /* MyOrderScrollCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CF31C70529600240968 /* MyOrderScrollCellView.swift */; };
+		8F234CF61C7057C000240968 /* NoOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CF51C7057C000240968 /* NoOrderView.swift */; };
+		8F234CFA1C7094FA00240968 /* WBDBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CF91C7094FA00240968 /* WBDBodyView.swift */; };
+		8F234CFC1C7096EE00240968 /* WBDHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CFB1C7096EE00240968 /* WBDHubView.swift */; };
+		8F234CFF1C73653500240968 /* OrderConfirmScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234CFE1C73653500240968 /* OrderConfirmScrollView.swift */; };
+		8F234D051C736A0C00240968 /* CarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D041C736A0C00240968 /* CarInfoView.swift */; };
+		8F234D071C736A4B00240968 /* ProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D061C736A4B00240968 /* ProductInfoView.swift */; };
+		8F234D091C736A8C00240968 /* CustInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D081C736A8C00240968 /* CustInfoView.swift */; };
+		8F234D0B1C73733300240968 /* OrderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D0A1C73733300240968 /* OrderTitleView.swift */; };
+		8F234D0D1C75AC3200240968 /* WBDHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D0C1C75AC3200240968 /* WBDHomeView.swift */; };
+		8F234D0F1C7626F900240968 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D0E1C7626F900240968 /* ColorView.swift */; };
+		8F234D111C77148C00240968 /* HomeBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D101C77148C00240968 /* HomeBodyView.swift */; };
+		8F234D131C776B5A00240968 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D121C776B5A00240968 /* BaseViewController.swift */; };
+		8F234D151C776CC700240968 /* BaseWithBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D141C776CC700240968 /* BaseWithBackViewController.swift */; };
+		8F234D171C799E4100240968 /* MyBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D161C799E4100240968 /* MyBusinessView.swift */; };
+		8F234D191C7B3B8E00240968 /* OrderModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234D181C7B3B8E00240968 /* OrderModuleView.swift */; };
+		8F3878471C68BFB1009B7CFE /* ColorSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878461C68BFB1009B7CFE /* ColorSelectorView.swift */; };
+		8F3878491C68C917009B7CFE /* OrderConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878481C68C917009B7CFE /* OrderConfirmViewController.swift */; };
+		8F38784B1C68D340009B7CFE /* MyBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38784A1C68D340009B7CFE /* MyBusinessViewController.swift */; };
+		8F38784E1C68DFC2009B7CFE /* MineLeftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38784D1C68DFC2009B7CFE /* MineLeftListView.swift */; };
+		8F3878501C68E03B009B7CFE /* MineLeftListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38784F1C68E03B009B7CFE /* MineLeftListCellView.swift */; };
+		8F3878521C68ECEE009B7CFE /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878511C68ECEE009B7CFE /* LeftView.swift */; };
+		8F3878541C699D7B009B7CFE /* MyOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878531C699D7B009B7CFE /* MyOrderView.swift */; };
+		8F3878561C699D8F009B7CFE /* TakeAndUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878551C699D8F009B7CFE /* TakeAndUploadView.swift */; };
+		8F3878581C699D9B009B7CFE /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878571C699D9B009B7CFE /* MyInfoView.swift */; };
+		8F38785A1C69A870009B7CFE /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3878591C69A870009B7CFE /* RightView.swift */; };
+		8F38785C1C69CC4A009B7CFE /* MyOrderHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38785B1C69CC4A009B7CFE /* MyOrderHeadView.swift */; };
+		8F883B891C5A3808003B2853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883B881C5A3808003B2853 /* AppDelegate.swift */; };
+		8F883B911C5A3808003B2853 /* WheelBossDesign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F883B8F1C5A3808003B2853 /* WheelBossDesign.xcdatamodeld */; };
+		8F883B931C5A3808003B2853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F883B921C5A3808003B2853 /* Assets.xcassets */; };
+		8F883B961C5A3808003B2853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F883B941C5A3808003B2853 /* LaunchScreen.storyboard */; };
+		8F883BA11C5A3808003B2853 /* WheelBossDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BA01C5A3808003B2853 /* WheelBossDesignTests.swift */; };
+		8F883BAC1C5A3808003B2853 /* WheelBossDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BAB1C5A3808003B2853 /* WheelBossDesignUITests.swift */; };
+		8F883BBD1C5A390F003B2853 /* LoginComponentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BBC1C5A390F003B2853 /* LoginComponentUIView.swift */; };
+		8F883BBF1C5A391C003B2853 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BBE1C5A391C003B2853 /* SignInViewController.swift */; };
+		8F883BC11C5A3D99003B2853 /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BC01C5A3D99003B2853 /* CustomUIButton.swift */; };
+		8F883BC31C5A41D5003B2853 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BC21C5A41D5003B2853 /* HomeViewController.swift */; };
+		8F883BC71C5BA7E7003B2853 /* HomeLeftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BC61C5BA7E7003B2853 /* HomeLeftUIView.swift */; };
+		8F883BCD1C5E068F003B2853 /* HomeRightUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BCC1C5E068F003B2853 /* HomeRightUIView.swift */; };
+		8F883BD01C5E09DA003B2853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F883BCE1C5E09DA003B2853 /* Main.storyboard */; };
+		8F883BD41C5E16A2003B2853 /* WheelBossDesignHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BD31C5E16A2003B2853 /* WheelBossDesignHomeViewController.swift */; };
+		8F883BD61C5E1D3C003B2853 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BD51C5E1D3C003B2853 /* ContactUsViewController.swift */; };
+		8F883BD81C5E1D5D003B2853 /* BuyersShowListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BD71C5E1D5D003B2853 /* BuyersShowListViewController.swift */; };
+		8F883BDA1C5E1D7A003B2853 /* PicturesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BD91C5E1D7A003B2853 /* PicturesHomeViewController.swift */; };
+		8F883BDC1C5E42F4003B2853 /* WBDHomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F883BDB1C5E42F4003B2853 /* WBDHomeTabView.swift */; };
+		8F9934E11C81E9F7007CB44B /* WheelColorValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934E01C81E9F7007CB44B /* WheelColorValueView.swift */; };
+		8F9934E31C82C785007CB44B /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934E21C82C785007CB44B /* SelectView.swift */; };
+		8F9934E51C82ECB1007CB44B /* PulldownListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934E41C82ECB1007CB44B /* PulldownListViewController.swift */; };
+		8F9934E71C832397007CB44B /* PulldownGroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934E61C832397007CB44B /* PulldownGroupListViewController.swift */; };
+		8F9934E91C8B08DD007CB44B /* LoginDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934E81C8B08DD007CB44B /* LoginDialog.swift */; };
+		8F9934EC1C8BD07F007CB44B /* MyInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934EB1C8BD07F007CB44B /* MyInfoHeaderView.swift */; };
+		8F9934EE1C8BD284007CB44B /* MyBaseInfoBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934ED1C8BD284007CB44B /* MyBaseInfoBodyView.swift */; };
+		8F9934F01C8BD2A2007CB44B /* PasswordManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934EF1C8BD2A2007CB44B /* PasswordManageView.swift */; };
+		8F9934F21C8C09DE007CB44B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934F11C8C09DE007CB44B /* Reachability.swift */; };
+		8F9934F41C8C1564007CB44B /* LeomondHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934F31C8C1564007CB44B /* LeomondHttp.swift */; };
+		8F9934F61C8DD0D1007CB44B /* UploadAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934F51C8DD0D1007CB44B /* UploadAvatarView.swift */; };
+		8F9934F81C944F47007CB44B /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934F71C944F47007CB44B /* AnnouncementViewController.swift */; };
+		8F9934FB1C945B1D007CB44B /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934FA1C945B1D007CB44B /* AnnouncementView.swift */; };
+		8F9934FD1C9468EA007CB44B /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934FC1C9468EA007CB44B /* ComingSoonView.swift */; };
+		8F9934FF1C953DC8007CB44B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9934FE1C953DC8007CB44B /* UploadViewController.swift */; };
+		8FC9F0C01C63BC0600FEAA19 /* CommonStruts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9F0BF1C63BC0600FEAA19 /* CommonStruts.swift */; };
+		8FCDF2B21C7C6D210063DC38 /* SelectInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2B11C7C6D210063DC38 /* SelectInputView.swift */; };
+		8FCDF2B41C7C6EE60063DC38 /* PullDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2B31C7C6EE60063DC38 /* PullDownView.swift */; };
+		8FCDF2B61C7C88DD0063DC38 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2B51C7C88DD0063DC38 /* TextFieldView.swift */; };
+		8FCDF2BA1C7C90B00063DC38 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2B91C7C90B00063DC38 /* StepperView.swift */; };
+		8FCDF2BC1C7C98BA0063DC38 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2BB1C7C98BA0063DC38 /* LabelView.swift */; };
+		8FCDF2BE1C7C9FE50063DC38 /* PcdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2BD1C7C9FE50063DC38 /* PcdView.swift */; };
+		8FCDF2C01C7CA50C0063DC38 /* OrderSucessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2BF1C7CA50C0063DC38 /* OrderSucessViewController.swift */; };
+		8FCDF2C21C7CAFC40063DC38 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2C11C7CAFC40063DC38 /* OrderDetailViewController.swift */; };
+		8FCDF2C51C7CB2430063DC38 /* OrderDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2C41C7CB2430063DC38 /* OrderDetailScrollView.swift */; };
+		8FCDF2C71C7DDDD40063DC38 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2C61C7DDDD40063DC38 /* OrderDetailView.swift */; };
+		8FCDF2C91C7DE0890063DC38 /* CarInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2C81C7DE0890063DC38 /* CarInfoDetailView.swift */; };
+		8FCDF2CB1C7DE0D60063DC38 /* ProductInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2CA1C7DE0D60063DC38 /* ProductInfoDetailView.swift */; };
+		8FCDF2CD1C7DE0EC0063DC38 /* CustInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2CC1C7DE0EC0063DC38 /* CustInfoDetailView.swift */; };
+		8FCDF2CF1C7DE11A0063DC38 /* LogisticsInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDF2CE1C7DE11A0063DC38 /* LogisticsInfoDetailView.swift */; };
+		8FD1346C1CA12E4C00EDB8A6 /* PicturesLargerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1346B1CA12E4C00EDB8A6 /* PicturesLargerViewController.swift */; };
+		8FD1346E1CA26F7300EDB8A6 /* WheelColorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1346D1CA26F7300EDB8A6 /* WheelColorValue.swift */; };
+		8FD134731CA3011000EDB8A6 /* CubeMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD134711CA3011000EDB8A6 /* CubeMap.c */; };
+		8FD1739B1C6763FD009ADA48 /* WheelBossDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1739A1C6763FD009ADA48 /* WheelBossDesignViewController.swift */; };
+		8FD173A01C6765EF009ADA48 /* DesignBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1739F1C6765EF009ADA48 /* DesignBodyView.swift */; };
+		8FD173A21C6766F4009ADA48 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD173A11C6766F4009ADA48 /* DiagramView.swift */; };
+		8FD173A41C676776009ADA48 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD173A31C676776009ADA48 /* ActionView.swift */; };
+		8FD173A71C684F8B009ADA48 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD173A61C684F8B009ADA48 /* PreviewView.swift */; };
+		8FE61DB61C9ECFC1003E1338 /* PicturesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE61DB51C9ECFC1003E1338 /* PicturesHeaderView.swift */; };
+		8FE61DB81C9ED077003E1338 /* PicturesBodyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE61DB71C9ED077003E1338 /* PicturesBodyScrollView.swift */; };
+		8FE61DBA1C9EF1FC003E1338 /* PicturesBodyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE61DB91C9EF1FC003E1338 /* PicturesBodyCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F883B9D1C5A3808003B2853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F883B7D1C5A3808003B2853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F883B841C5A3808003B2853;
+			remoteInfo = WheelBossDesign;
+		};
+		8F883BA81C5A3808003B2853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F883B7D1C5A3808003B2853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F883B841C5A3808003B2853;
+			remoteInfo = WheelBossDesign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F234CF11C704F3B00240968 /* MyOrderBodyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderBodyScrollView.swift; sourceTree = "<group>"; };
+		8F234CF31C70529600240968 /* MyOrderScrollCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderScrollCellView.swift; sourceTree = "<group>"; };
+		8F234CF51C7057C000240968 /* NoOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoOrderView.swift; sourceTree = "<group>"; };
+		8F234CF91C7094FA00240968 /* WBDBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDBodyView.swift; sourceTree = "<group>"; };
+		8F234CFB1C7096EE00240968 /* WBDHubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDHubView.swift; sourceTree = "<group>"; };
+		8F234CFE1C73653500240968 /* OrderConfirmScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmScrollView.swift; sourceTree = "<group>"; };
+		8F234D041C736A0C00240968 /* CarInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoView.swift; sourceTree = "<group>"; };
+		8F234D061C736A4B00240968 /* ProductInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoView.swift; sourceTree = "<group>"; };
+		8F234D081C736A8C00240968 /* CustInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustInfoView.swift; sourceTree = "<group>"; };
+		8F234D0A1C73733300240968 /* OrderTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTitleView.swift; sourceTree = "<group>"; };
+		8F234D0C1C75AC3200240968 /* WBDHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDHomeView.swift; sourceTree = "<group>"; };
+		8F234D0E1C7626F900240968 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		8F234D101C77148C00240968 /* HomeBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBodyView.swift; sourceTree = "<group>"; };
+		8F234D121C776B5A00240968 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8F234D141C776CC700240968 /* BaseWithBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWithBackViewController.swift; sourceTree = "<group>"; };
+		8F234D161C799E4100240968 /* MyBusinessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBusinessView.swift; sourceTree = "<group>"; };
+		8F234D181C7B3B8E00240968 /* OrderModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModuleView.swift; sourceTree = "<group>"; };
+		8F3878461C68BFB1009B7CFE /* ColorSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSelectorView.swift; sourceTree = "<group>"; };
+		8F3878481C68C917009B7CFE /* OrderConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmViewController.swift; sourceTree = "<group>"; };
+		8F38784A1C68D340009B7CFE /* MyBusinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBusinessViewController.swift; sourceTree = "<group>"; };
+		8F38784D1C68DFC2009B7CFE /* MineLeftListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineLeftListView.swift; sourceTree = "<group>"; };
+		8F38784F1C68E03B009B7CFE /* MineLeftListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineLeftListCellView.swift; sourceTree = "<group>"; };
+		8F3878511C68ECEE009B7CFE /* LeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
+		8F3878531C699D7B009B7CFE /* MyOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderView.swift; sourceTree = "<group>"; };
+		8F3878551C699D8F009B7CFE /* TakeAndUploadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeAndUploadView.swift; sourceTree = "<group>"; };
+		8F3878571C699D9B009B7CFE /* MyInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		8F3878591C69A870009B7CFE /* RightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
+		8F38785B1C69CC4A009B7CFE /* MyOrderHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderHeadView.swift; sourceTree = "<group>"; };
+		8F883B851C5A3808003B2853 /* 车毂定制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "车毂定制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F883B881C5A3808003B2853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F883B901C5A3808003B2853 /* WheelBossDesign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WheelBossDesign.xcdatamodel; sourceTree = "<group>"; };
+		8F883B921C5A3808003B2853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F883B951C5A3808003B2853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F883B971C5A3808003B2853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F883B9C1C5A3808003B2853 /* WheelBossDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelBossDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F883BA01C5A3808003B2853 /* WheelBossDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelBossDesignTests.swift; sourceTree = "<group>"; };
+		8F883BA21C5A3808003B2853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F883BA71C5A3808003B2853 /* WheelBossDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelBossDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F883BAB1C5A3808003B2853 /* WheelBossDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelBossDesignUITests.swift; sourceTree = "<group>"; };
+		8F883BAD1C5A3808003B2853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F883BBC1C5A390F003B2853 /* LoginComponentUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginComponentUIView.swift; sourceTree = "<group>"; };
+		8F883BBE1C5A391C003B2853 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8F883BC01C5A3D99003B2853 /* CustomUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		8F883BC21C5A41D5003B2853 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8F883BC61C5BA7E7003B2853 /* HomeLeftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLeftUIView.swift; sourceTree = "<group>"; };
+		8F883BCC1C5E068F003B2853 /* HomeRightUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRightUIView.swift; sourceTree = "<group>"; };
+		8F883BCF1C5E09DA003B2853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F883BD31C5E16A2003B2853 /* WheelBossDesignHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelBossDesignHomeViewController.swift; sourceTree = "<group>"; };
+		8F883BD51C5E1D3C003B2853 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		8F883BD71C5E1D5D003B2853 /* BuyersShowListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyersShowListViewController.swift; sourceTree = "<group>"; };
+		8F883BD91C5E1D7A003B2853 /* PicturesHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesHomeViewController.swift; sourceTree = "<group>"; };
+		8F883BDB1C5E42F4003B2853 /* WBDHomeTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDHomeTabView.swift; sourceTree = "<group>"; };
+		8F9934E01C81E9F7007CB44B /* WheelColorValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelColorValueView.swift; sourceTree = "<group>"; };
+		8F9934E21C82C785007CB44B /* SelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		8F9934E41C82ECB1007CB44B /* PulldownListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulldownListViewController.swift; sourceTree = "<group>"; };
+		8F9934E61C832397007CB44B /* PulldownGroupListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulldownGroupListViewController.swift; sourceTree = "<group>"; };
+		8F9934E81C8B08DD007CB44B /* LoginDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDialog.swift; sourceTree = "<group>"; };
+		8F9934EB1C8BD07F007CB44B /* MyInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoHeaderView.swift; sourceTree = "<group>"; };
+		8F9934ED1C8BD284007CB44B /* MyBaseInfoBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBaseInfoBodyView.swift; sourceTree = "<group>"; };
+		8F9934EF1C8BD2A2007CB44B /* PasswordManageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordManageView.swift; sourceTree = "<group>"; };
+		8F9934F11C8C09DE007CB44B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8F9934F31C8C1564007CB44B /* LeomondHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeomondHttp.swift; sourceTree = "<group>"; };
+		8F9934F51C8DD0D1007CB44B /* UploadAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAvatarView.swift; sourceTree = "<group>"; };
+		8F9934F71C944F47007CB44B /* AnnouncementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
+		8F9934FA1C945B1D007CB44B /* AnnouncementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
+		8F9934FC1C9468EA007CB44B /* ComingSoonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		8F9934FE1C953DC8007CB44B /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		8FC9F0BF1C63BC0600FEAA19 /* CommonStruts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonStruts.swift; sourceTree = "<group>"; };
+		8FCDF2B11C7C6D210063DC38 /* SelectInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInputView.swift; sourceTree = "<group>"; };
+		8FCDF2B31C7C6EE60063DC38 /* PullDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullDownView.swift; sourceTree = "<group>"; };
+		8FCDF2B51C7C88DD0063DC38 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		8FCDF2B91C7C90B00063DC38 /* StepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		8FCDF2BB1C7C98BA0063DC38 /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		8FCDF2BD1C7C9FE50063DC38 /* PcdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PcdView.swift; sourceTree = "<group>"; };
+		8FCDF2BF1C7CA50C0063DC38 /* OrderSucessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSucessViewController.swift; sourceTree = "<group>"; };
+		8FCDF2C11C7CAFC40063DC38 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		8FCDF2C41C7CB2430063DC38 /* OrderDetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailScrollView.swift; sourceTree = "<group>"; };
+		8FCDF2C61C7DDDD40063DC38 /* OrderDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		8FCDF2C81C7DE0890063DC38 /* CarInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoDetailView.swift; sourceTree = "<group>"; };
+		8FCDF2CA1C7DE0D60063DC38 /* ProductInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoDetailView.swift; sourceTree = "<group>"; };
+		8FCDF2CC1C7DE0EC0063DC38 /* CustInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustInfoDetailView.swift; sourceTree = "<group>"; };
+		8FCDF2CE1C7DE11A0063DC38 /* LogisticsInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticsInfoDetailView.swift; sourceTree = "<group>"; };
+		8FD1346B1CA12E4C00EDB8A6 /* PicturesLargerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesLargerViewController.swift; sourceTree = "<group>"; };
+		8FD1346D1CA26F7300EDB8A6 /* WheelColorValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelColorValue.swift; sourceTree = "<group>"; };
+		8FD134701CA3011000EDB8A6 /* 车毂定制-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "车毂定制-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FD134711CA3011000EDB8A6 /* CubeMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CubeMap.c; sourceTree = "<group>"; };
+		8FD134721CA3011000EDB8A6 /* CubeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeMap.h; sourceTree = "<group>"; };
+		8FD1739A1C6763FD009ADA48 /* WheelBossDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelBossDesignViewController.swift; sourceTree = "<group>"; };
+		8FD1739F1C6765EF009ADA48 /* DesignBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignBodyView.swift; sourceTree = "<group>"; };
+		8FD173A11C6766F4009ADA48 /* DiagramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
+		8FD173A31C676776009ADA48 /* ActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		8FD173A61C684F8B009ADA48 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		8FE61DB51C9ECFC1003E1338 /* PicturesHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesHeaderView.swift; sourceTree = "<group>"; };
+		8FE61DB71C9ED077003E1338 /* PicturesBodyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesBodyScrollView.swift; sourceTree = "<group>"; };
+		8FE61DB91C9EF1FC003E1338 /* PicturesBodyCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesBodyCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F883B821C5A3808003B2853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883B991C5A3808003B2853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883BA41C5A3808003B2853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F234CF71C70848F00240968 /* myorder */ = {
+			isa = PBXGroup;
+			children = (
+				8F38785B1C69CC4A009B7CFE /* MyOrderHeadView.swift */,
+				8F234CF11C704F3B00240968 /* MyOrderBodyScrollView.swift */,
+				8F234CF31C70529600240968 /* MyOrderScrollCellView.swift */,
+				8F234CF51C7057C000240968 /* NoOrderView.swift */,
+				8F3878531C699D7B009B7CFE /* MyOrderView.swift */,
+			);
+			name = myorder;
+			sourceTree = "<group>";
+		};
+		8F234CF81C70899D00240968 /* designhome */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BDB1C5E42F4003B2853 /* WBDHomeTabView.swift */,
+				8F234CF91C7094FA00240968 /* WBDBodyView.swift */,
+				8F234CFB1C7096EE00240968 /* WBDHubView.swift */,
+				8F234D0C1C75AC3200240968 /* WBDHomeView.swift */,
+			);
+			name = designhome;
+			sourceTree = "<group>";
+		};
+		8F234CFD1C7364F200240968 /* orderconfirm */ = {
+			isa = PBXGroup;
+			children = (
+				8F234CFE1C73653500240968 /* OrderConfirmScrollView.swift */,
+				8F234D041C736A0C00240968 /* CarInfoView.swift */,
+				8F234D061C736A4B00240968 /* ProductInfoView.swift */,
+				8F234D081C736A8C00240968 /* CustInfoView.swift */,
+				8F234D0A1C73733300240968 /* OrderTitleView.swift */,
+				8F234D181C7B3B8E00240968 /* OrderModuleView.swift */,
+				8FCDF2B11C7C6D210063DC38 /* SelectInputView.swift */,
+				8FCDF2B31C7C6EE60063DC38 /* PullDownView.swift */,
+				8FCDF2B51C7C88DD0063DC38 /* TextFieldView.swift */,
+				8FCDF2B91C7C90B00063DC38 /* StepperView.swift */,
+				8FCDF2BB1C7C98BA0063DC38 /* LabelView.swift */,
+				8FCDF2BD1C7C9FE50063DC38 /* PcdView.swift */,
+				8F9934E01C81E9F7007CB44B /* WheelColorValueView.swift */,
+				8F9934E21C82C785007CB44B /* SelectView.swift */,
+				8FD1346D1CA26F7300EDB8A6 /* WheelColorValue.swift */,
+			);
+			name = orderconfirm;
+			sourceTree = "<group>";
+		};
+		8F38784C1C68DF89009B7CFE /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				8F9934EA1C8BD053007CB44B /* myinfo */,
+				8F234CF71C70848F00240968 /* myorder */,
+				8F38784D1C68DFC2009B7CFE /* MineLeftListView.swift */,
+				8F38784F1C68E03B009B7CFE /* MineLeftListCellView.swift */,
+				8F3878511C68ECEE009B7CFE /* LeftView.swift */,
+				8F3878551C699D8F009B7CFE /* TakeAndUploadView.swift */,
+				8F3878591C69A870009B7CFE /* RightView.swift */,
+				8F234D161C799E4100240968 /* MyBusinessView.swift */,
+			);
+			name = mine;
+			sourceTree = "<group>";
+		};
+		8F883B7C1C5A3808003B2853 = {
+			isa = PBXGroup;
+			children = (
+				8F883B871C5A3808003B2853 /* WheelBossDesign */,
+				8F883B9F1C5A3808003B2853 /* WheelBossDesignTests */,
+				8F883BAA1C5A3808003B2853 /* WheelBossDesignUITests */,
+				8F883B861C5A3808003B2853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F883B861C5A3808003B2853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F883B851C5A3808003B2853 /* 车毂定制.app */,
+				8F883B9C1C5A3808003B2853 /* WheelBossDesignTests.xctest */,
+				8F883BA71C5A3808003B2853 /* WheelBossDesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F883B871C5A3808003B2853 /* WheelBossDesign */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BBB1C5A38AA003B2853 /* ViewController */,
+				8F883BBA1C5A3869003B2853 /* SupportingFiles */,
+				8F883BB91C5A3852003B2853 /* CommonComponent */,
+				8F883B921C5A3808003B2853 /* Assets.xcassets */,
+				8F883B941C5A3808003B2853 /* LaunchScreen.storyboard */,
+				8F883BCE1C5E09DA003B2853 /* Main.storyboard */,
+			);
+			path = WheelBossDesign;
+			sourceTree = "<group>";
+		};
+		8F883B9F1C5A3808003B2853 /* WheelBossDesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BA01C5A3808003B2853 /* WheelBossDesignTests.swift */,
+				8F883BA21C5A3808003B2853 /* Info.plist */,
+			);
+			path = WheelBossDesignTests;
+			sourceTree = "<group>";
+		};
+		8F883BAA1C5A3808003B2853 /* WheelBossDesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BAB1C5A3808003B2853 /* WheelBossDesignUITests.swift */,
+				8F883BAD1C5A3808003B2853 /* Info.plist */,
+			);
+			path = WheelBossDesignUITests;
+			sourceTree = "<group>";
+		};
+		8F883BB91C5A3852003B2853 /* CommonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1346F1CA300F900EDB8A6 /* c */,
+				8FE61DB41C9ECB95003E1338 /* pictures */,
+				8F9934F91C945B05007CB44B /* announcement */,
+				8FCDF2C31C7CB2190063DC38 /* orderdetail */,
+				8F234CFD1C7364F200240968 /* orderconfirm */,
+				8F234CF81C70899D00240968 /* designhome */,
+				8F38784C1C68DF89009B7CFE /* mine */,
+				8FD1739E1C6765C8009ADA48 /* design */,
+				8FD1739D1C6765AC009ADA48 /* home */,
+				8FD1739C1C6765A1009ADA48 /* login */,
+				8FC9F0BF1C63BC0600FEAA19 /* CommonStruts.swift */,
+				8F9934E81C8B08DD007CB44B /* LoginDialog.swift */,
+				8F9934F11C8C09DE007CB44B /* Reachability.swift */,
+				8F9934F31C8C1564007CB44B /* LeomondHttp.swift */,
+				8F9934FC1C9468EA007CB44B /* ComingSoonView.swift */,
+			);
+			name = CommonComponent;
+			sourceTree = "<group>";
+		};
+		8F883BBA1C5A3869003B2853 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8F883B881C5A3808003B2853 /* AppDelegate.swift */,
+				8F883B971C5A3808003B2853 /* Info.plist */,
+				8F883B8F1C5A3808003B2853 /* WheelBossDesign.xcdatamodeld */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8F883BBB1C5A38AA003B2853 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BBE1C5A391C003B2853 /* SignInViewController.swift */,
+				8F883BC21C5A41D5003B2853 /* HomeViewController.swift */,
+				8F883BD31C5E16A2003B2853 /* WheelBossDesignHomeViewController.swift */,
+				8F883BD51C5E1D3C003B2853 /* ContactUsViewController.swift */,
+				8F883BD71C5E1D5D003B2853 /* BuyersShowListViewController.swift */,
+				8F883BD91C5E1D7A003B2853 /* PicturesHomeViewController.swift */,
+				8FD1739A1C6763FD009ADA48 /* WheelBossDesignViewController.swift */,
+				8F3878481C68C917009B7CFE /* OrderConfirmViewController.swift */,
+				8F38784A1C68D340009B7CFE /* MyBusinessViewController.swift */,
+				8F234D121C776B5A00240968 /* BaseViewController.swift */,
+				8F234D141C776CC700240968 /* BaseWithBackViewController.swift */,
+				8FCDF2BF1C7CA50C0063DC38 /* OrderSucessViewController.swift */,
+				8FCDF2C11C7CAFC40063DC38 /* OrderDetailViewController.swift */,
+				8F9934E41C82ECB1007CB44B /* PulldownListViewController.swift */,
+				8F9934E61C832397007CB44B /* PulldownGroupListViewController.swift */,
+				8F9934F71C944F47007CB44B /* AnnouncementViewController.swift */,
+				8F9934FE1C953DC8007CB44B /* UploadViewController.swift */,
+				8FD1346B1CA12E4C00EDB8A6 /* PicturesLargerViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8F9934EA1C8BD053007CB44B /* myinfo */ = {
+			isa = PBXGroup;
+			children = (
+				8F9934EB1C8BD07F007CB44B /* MyInfoHeaderView.swift */,
+				8F3878571C699D9B009B7CFE /* MyInfoView.swift */,
+				8F9934ED1C8BD284007CB44B /* MyBaseInfoBodyView.swift */,
+				8F9934EF1C8BD2A2007CB44B /* PasswordManageView.swift */,
+				8F9934F51C8DD0D1007CB44B /* UploadAvatarView.swift */,
+			);
+			name = myinfo;
+			sourceTree = "<group>";
+		};
+		8F9934F91C945B05007CB44B /* announcement */ = {
+			isa = PBXGroup;
+			children = (
+				8F9934FA1C945B1D007CB44B /* AnnouncementView.swift */,
+			);
+			name = announcement;
+			sourceTree = "<group>";
+		};
+		8FCDF2C31C7CB2190063DC38 /* orderdetail */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDF2C41C7CB2430063DC38 /* OrderDetailScrollView.swift */,
+				8FCDF2C61C7DDDD40063DC38 /* OrderDetailView.swift */,
+				8FCDF2C81C7DE0890063DC38 /* CarInfoDetailView.swift */,
+				8FCDF2CA1C7DE0D60063DC38 /* ProductInfoDetailView.swift */,
+				8FCDF2CC1C7DE0EC0063DC38 /* CustInfoDetailView.swift */,
+				8FCDF2CE1C7DE11A0063DC38 /* LogisticsInfoDetailView.swift */,
+			);
+			name = orderdetail;
+			sourceTree = "<group>";
+		};
+		8FD1346F1CA300F900EDB8A6 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				8FD134711CA3011000EDB8A6 /* CubeMap.c */,
+				8FD134721CA3011000EDB8A6 /* CubeMap.h */,
+				8FD134701CA3011000EDB8A6 /* 车毂定制-Bridging-Header.h */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		8FD1739C1C6765A1009ADA48 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BC01C5A3D99003B2853 /* CustomUIButton.swift */,
+				8F883BBC1C5A390F003B2853 /* LoginComponentUIView.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		8FD1739D1C6765AC009ADA48 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				8F883BC61C5BA7E7003B2853 /* HomeLeftUIView.swift */,
+				8F883BCC1C5E068F003B2853 /* HomeRightUIView.swift */,
+				8F234D101C77148C00240968 /* HomeBodyView.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		8FD1739E1C6765C8009ADA48 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1739F1C6765EF009ADA48 /* DesignBodyView.swift */,
+				8FD173A11C6766F4009ADA48 /* DiagramView.swift */,
+				8FD173A31C676776009ADA48 /* ActionView.swift */,
+				8FD173A61C684F8B009ADA48 /* PreviewView.swift */,
+				8F3878461C68BFB1009B7CFE /* ColorSelectorView.swift */,
+				8F234D0E1C7626F900240968 /* ColorView.swift */,
+			);
+			name = design;
+			sourceTree = "<group>";
+		};
+		8FE61DB41C9ECB95003E1338 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				8FE61DB51C9ECFC1003E1338 /* PicturesHeaderView.swift */,
+				8FE61DB71C9ED077003E1338 /* PicturesBodyScrollView.swift */,
+				8FE61DB91C9EF1FC003E1338 /* PicturesBodyCellView.swift */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F883B841C5A3808003B2853 /* 车毂定制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F883BB01C5A3808003B2853 /* Build configuration list for PBXNativeTarget "车毂定制" */;
+			buildPhases = (
+				8F883B811C5A3808003B2853 /* Sources */,
+				8F883B821C5A3808003B2853 /* Frameworks */,
+				8F883B831C5A3808003B2853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "车毂定制";
+			productName = WheelBossDesign;
+			productReference = 8F883B851C5A3808003B2853 /* 车毂定制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F883B9B1C5A3808003B2853 /* WheelBossDesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F883BB31C5A3808003B2853 /* Build configuration list for PBXNativeTarget "WheelBossDesignTests" */;
+			buildPhases = (
+				8F883B981C5A3808003B2853 /* Sources */,
+				8F883B991C5A3808003B2853 /* Frameworks */,
+				8F883B9A1C5A3808003B2853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F883B9E1C5A3808003B2853 /* PBXTargetDependency */,
+			);
+			name = WheelBossDesignTests;
+			productName = WheelBossDesignTests;
+			productReference = 8F883B9C1C5A3808003B2853 /* WheelBossDesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F883BA61C5A3808003B2853 /* WheelBossDesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F883BB61C5A3808003B2853 /* Build configuration list for PBXNativeTarget "WheelBossDesignUITests" */;
+			buildPhases = (
+				8F883BA31C5A3808003B2853 /* Sources */,
+				8F883BA41C5A3808003B2853 /* Frameworks */,
+				8F883BA51C5A3808003B2853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F883BA91C5A3808003B2853 /* PBXTargetDependency */,
+			);
+			name = WheelBossDesignUITests;
+			productName = WheelBossDesignUITests;
+			productReference = 8F883BA71C5A3808003B2853 /* WheelBossDesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F883B7D1C5A3808003B2853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Leomond;
+				TargetAttributes = {
+					8F883B841C5A3808003B2853 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CY3BJPC3PA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8F883B9B1C5A3808003B2853 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SH849DFEDP;
+						TestTargetID = 8F883B841C5A3808003B2853;
+					};
+					8F883BA61C5A3808003B2853 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SH849DFEDP;
+						TestTargetID = 8F883B841C5A3808003B2853;
+					};
+				};
+			};
+			buildConfigurationList = 8F883B801C5A3808003B2853 /* Build configuration list for PBXProject "WheelBossDesign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F883B7C1C5A3808003B2853;
+			productRefGroup = 8F883B861C5A3808003B2853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F883B841C5A3808003B2853 /* 车毂定制 */,
+				8F883B9B1C5A3808003B2853 /* WheelBossDesignTests */,
+				8F883BA61C5A3808003B2853 /* WheelBossDesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F883B831C5A3808003B2853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F883BD01C5E09DA003B2853 /* Main.storyboard in Resources */,
+				8F883B961C5A3808003B2853 /* LaunchScreen.storyboard in Resources */,
+				8F883B931C5A3808003B2853 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883B9A1C5A3808003B2853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883BA51C5A3808003B2853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F883B811C5A3808003B2853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9934F61C8DD0D1007CB44B /* UploadAvatarView.swift in Sources */,
+				8F234D071C736A4B00240968 /* ProductInfoView.swift in Sources */,
+				8FE61DB61C9ECFC1003E1338 /* PicturesHeaderView.swift in Sources */,
+				8F3878491C68C917009B7CFE /* OrderConfirmViewController.swift in Sources */,
+				8F234D051C736A0C00240968 /* CarInfoView.swift in Sources */,
+				8F234D091C736A8C00240968 /* CustInfoView.swift in Sources */,
+				8FE61DBA1C9EF1FC003E1338 /* PicturesBodyCellView.swift in Sources */,
+				8F3878521C68ECEE009B7CFE /* LeftView.swift in Sources */,
+				8FD1346C1CA12E4C00EDB8A6 /* PicturesLargerViewController.swift in Sources */,
+				8F234D191C7B3B8E00240968 /* OrderModuleView.swift in Sources */,
+				8F883BDA1C5E1D7A003B2853 /* PicturesHomeViewController.swift in Sources */,
+				8F9934F01C8BD2A2007CB44B /* PasswordManageView.swift in Sources */,
+				8F38785C1C69CC4A009B7CFE /* MyOrderHeadView.swift in Sources */,
+				8F883BCD1C5E068F003B2853 /* HomeRightUIView.swift in Sources */,
+				8FCDF2BC1C7C98BA0063DC38 /* LabelView.swift in Sources */,
+				8F234CFA1C7094FA00240968 /* WBDBodyView.swift in Sources */,
+				8FCDF2BA1C7C90B00063DC38 /* StepperView.swift in Sources */,
+				8FD173A01C6765EF009ADA48 /* DesignBodyView.swift in Sources */,
+				8FD1739B1C6763FD009ADA48 /* WheelBossDesignViewController.swift in Sources */,
+				8F3878561C699D8F009B7CFE /* TakeAndUploadView.swift in Sources */,
+				8FCDF2C51C7CB2430063DC38 /* OrderDetailScrollView.swift in Sources */,
+				8F234D131C776B5A00240968 /* BaseViewController.swift in Sources */,
+				8F883BC11C5A3D99003B2853 /* CustomUIButton.swift in Sources */,
+				8F9934EC1C8BD07F007CB44B /* MyInfoHeaderView.swift in Sources */,
+				8FD173A21C6766F4009ADA48 /* DiagramView.swift in Sources */,
+				8FCDF2B41C7C6EE60063DC38 /* PullDownView.swift in Sources */,
+				8F3878501C68E03B009B7CFE /* MineLeftListCellView.swift in Sources */,
+				8F3878471C68BFB1009B7CFE /* ColorSelectorView.swift in Sources */,
+				8F9934E51C82ECB1007CB44B /* PulldownListViewController.swift in Sources */,
+				8F883BBF1C5A391C003B2853 /* SignInViewController.swift in Sources */,
+				8F3878541C699D7B009B7CFE /* MyOrderView.swift in Sources */,
+				8F234D151C776CC700240968 /* BaseWithBackViewController.swift in Sources */,
+				8F9934FF1C953DC8007CB44B /* UploadViewController.swift in Sources */,
+				8F9934F21C8C09DE007CB44B /* Reachability.swift in Sources */,
+				8FD173A71C684F8B009ADA48 /* PreviewView.swift in Sources */,
+				8F9934FD1C9468EA007CB44B /* ComingSoonView.swift in Sources */,
+				8F883B911C5A3808003B2853 /* WheelBossDesign.xcdatamodeld in Sources */,
+				8F234CF21C704F3B00240968 /* MyOrderBodyScrollView.swift in Sources */,
+				8F9934FB1C945B1D007CB44B /* AnnouncementView.swift in Sources */,
+				8FCDF2CD1C7DE0EC0063DC38 /* CustInfoDetailView.swift in Sources */,
+				8F234CFF1C73653500240968 /* OrderConfirmScrollView.swift in Sources */,
+				8F234CFC1C7096EE00240968 /* WBDHubView.swift in Sources */,
+				8F234D0F1C7626F900240968 /* ColorView.swift in Sources */,
+				8F9934E71C832397007CB44B /* PulldownGroupListViewController.swift in Sources */,
+				8F234D0B1C73733300240968 /* OrderTitleView.swift in Sources */,
+				8F234D171C799E4100240968 /* MyBusinessView.swift in Sources */,
+				8F883BD41C5E16A2003B2853 /* WheelBossDesignHomeViewController.swift in Sources */,
+				8F3878581C699D9B009B7CFE /* MyInfoView.swift in Sources */,
+				8F38785A1C69A870009B7CFE /* RightView.swift in Sources */,
+				8F234D111C77148C00240968 /* HomeBodyView.swift in Sources */,
+				8F9934F81C944F47007CB44B /* AnnouncementViewController.swift in Sources */,
+				8F883BD81C5E1D5D003B2853 /* BuyersShowListViewController.swift in Sources */,
+				8F234CF41C70529600240968 /* MyOrderScrollCellView.swift in Sources */,
+				8FCDF2CB1C7DE0D60063DC38 /* ProductInfoDetailView.swift in Sources */,
+				8FCDF2B61C7C88DD0063DC38 /* TextFieldView.swift in Sources */,
+				8FCDF2C91C7DE0890063DC38 /* CarInfoDetailView.swift in Sources */,
+				8FCDF2CF1C7DE11A0063DC38 /* LogisticsInfoDetailView.swift in Sources */,
+				8F9934E31C82C785007CB44B /* SelectView.swift in Sources */,
+				8FC9F0C01C63BC0600FEAA19 /* CommonStruts.swift in Sources */,
+				8F9934EE1C8BD284007CB44B /* MyBaseInfoBodyView.swift in Sources */,
+				8F9934F41C8C1564007CB44B /* LeomondHttp.swift in Sources */,
+				8F883BC71C5BA7E7003B2853 /* HomeLeftUIView.swift in Sources */,
+				8F234CF61C7057C000240968 /* NoOrderView.swift in Sources */,
+				8FD173A41C676776009ADA48 /* ActionView.swift in Sources */,
+				8F883B891C5A3808003B2853 /* AppDelegate.swift in Sources */,
+				8F883BD61C5E1D3C003B2853 /* ContactUsViewController.swift in Sources */,
+				8F883BDC1C5E42F4003B2853 /* WBDHomeTabView.swift in Sources */,
+				8F234D0D1C75AC3200240968 /* WBDHomeView.swift in Sources */,
+				8FCDF2BE1C7C9FE50063DC38 /* PcdView.swift in Sources */,
+				8FD134731CA3011000EDB8A6 /* CubeMap.c in Sources */,
+				8F9934E91C8B08DD007CB44B /* LoginDialog.swift in Sources */,
+				8FCDF2C21C7CAFC40063DC38 /* OrderDetailViewController.swift in Sources */,
+				8FCDF2B21C7C6D210063DC38 /* SelectInputView.swift in Sources */,
+				8F883BBD1C5A390F003B2853 /* LoginComponentUIView.swift in Sources */,
+				8FD1346E1CA26F7300EDB8A6 /* WheelColorValue.swift in Sources */,
+				8F9934E11C81E9F7007CB44B /* WheelColorValueView.swift in Sources */,
+				8F38784E1C68DFC2009B7CFE /* MineLeftListView.swift in Sources */,
+				8FCDF2C71C7DDDD40063DC38 /* OrderDetailView.swift in Sources */,
+				8FE61DB81C9ED077003E1338 /* PicturesBodyScrollView.swift in Sources */,
+				8F38784B1C68D340009B7CFE /* MyBusinessViewController.swift in Sources */,
+				8F883BC31C5A41D5003B2853 /* HomeViewController.swift in Sources */,
+				8FCDF2C01C7CA50C0063DC38 /* OrderSucessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883B981C5A3808003B2853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F883BA11C5A3808003B2853 /* WheelBossDesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F883BA31C5A3808003B2853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F883BAC1C5A3808003B2853 /* WheelBossDesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F883B9E1C5A3808003B2853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F883B841C5A3808003B2853 /* 车毂定制 */;
+			targetProxy = 8F883B9D1C5A3808003B2853 /* PBXContainerItemProxy */;
+		};
+		8F883BA91C5A3808003B2853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F883B841C5A3808003B2853 /* 车毂定制 */;
+			targetProxy = 8F883BA81C5A3808003B2853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F883B941C5A3808003B2853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F883B951C5A3808003B2853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8F883BCE1C5E09DA003B2853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F883BCF1C5E09DA003B2853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F883BAE1C5A3808003B2853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8F883BAF1C5A3808003B2853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F883BB11C5A3808003B2853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WheelBossDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WheelBossDesign/车毂定制-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F883BB21C5A3808003B2853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WheelBossDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WheelBossDesign/车毂定制-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8F883BB41C5A3808003B2853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WheelBossDesignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelBossDesign.app/WheelBossDesign";
+			};
+			name = Debug;
+		};
+		8F883BB51C5A3808003B2853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WheelBossDesignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelBossDesign.app/WheelBossDesign";
+			};
+			name = Release;
+		};
+		8F883BB71C5A3808003B2853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WheelBossDesignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WheelBossDesign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F883BB81C5A3808003B2853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WheelBossDesignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WheelBossDesign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		8FCDF2D01C7E034A0063DC38 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		8FCDF2D11C7E034A0063DC38 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = WheelBossDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WheelBossDesign/车毂定制-Bridging-Header.h";
+			};
+			name = AdHoc;
+		};
+		8FCDF2D21C7E034A0063DC38 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WheelBossDesignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelBossDesign.app/WheelBossDesign";
+			};
+			name = AdHoc;
+		};
+		8FCDF2D31C7E034A0063DC38 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WheelBossDesignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leomond.WheelBossDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WheelBossDesign;
+				USES_XCTRUNNER = YES;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F883B801C5A3808003B2853 /* Build configuration list for PBXProject "WheelBossDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F883BAE1C5A3808003B2853 /* Debug */,
+				8F883BAF1C5A3808003B2853 /* Release */,
+				8FCDF2D01C7E034A0063DC38 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F883BB01C5A3808003B2853 /* Build configuration list for PBXNativeTarget "车毂定制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F883BB11C5A3808003B2853 /* Debug */,
+				8F883BB21C5A3808003B2853 /* Release */,
+				8FCDF2D11C7E034A0063DC38 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F883BB31C5A3808003B2853 /* Build configuration list for PBXNativeTarget "WheelBossDesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F883BB41C5A3808003B2853 /* Debug */,
+				8F883BB51C5A3808003B2853 /* Release */,
+				8FCDF2D21C7E034A0063DC38 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F883BB61C5A3808003B2853 /* Build configuration list for PBXNativeTarget "WheelBossDesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F883BB71C5A3808003B2853 /* Debug */,
+				8F883BB81C5A3808003B2853 /* Release */,
+				8FCDF2D31C7E034A0063DC38 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F883B8F1C5A3808003B2853 /* WheelBossDesign.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F883B901C5A3808003B2853 /* WheelBossDesign.xcdatamodel */,
+			);
+			currentVersion = 8F883B901C5A3808003B2853 /* WheelBossDesign.xcdatamodel */;
+			path = WheelBossDesign.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F883B7D1C5A3808003B2853 /* Project object */;
+}
